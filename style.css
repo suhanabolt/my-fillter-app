@@ -1,0 +1,22 @@
+h3{
+font-size:25px !important;
+}
+img
+{
+height: 50px;
+}
+canvas
+{
+animation-name:jocker;
+animation-duration:4s;
+animation-iteration-count:infinite;
+}
+@keyframes jocker{
+from{box-shadow: 10px 10px 50px red;}
+to{box-shadow: 10px 10px 50px rgb(250, 135, 135);}
+}
+body{
+background-position:center;
+background-size:contain;
+}
+
